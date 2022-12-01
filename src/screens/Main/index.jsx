@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import { Keyboard, ActivityIndicator, StyleSheet, TouchableOpacity } from 'react-native'
 
-import { Button } from 'react-native-elements'
-
 import { useNavigation } from '@react-navigation/native'
 import Icon from 'react-native-vector-icons/MaterialIcons'
 
@@ -72,7 +70,6 @@ export function Main() {
       paddingLeft: 12,
       paddingTop: 0,
       paddingBottom: 0,
-
     }
   });
 
